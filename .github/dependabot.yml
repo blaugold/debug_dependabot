@@ -1,10 +1,6 @@
 version: 2
 updates:
   - package-ecosystem: pub
-    directory: /tool
-    schedule:
-      interval: daily
-  - package-ecosystem: pub
-    directory: /shared
+    directory: /
     schedule:
       interval: daily
