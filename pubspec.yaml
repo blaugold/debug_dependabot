@@ -13,3 +13,6 @@ dependencies:
     git:
       url: https://github.com/lotum/lotum_analysis.git
       ref: lotum_analysis-v1.0.2
+  local:
+    path: ./local
+  collection: 1.16.0
