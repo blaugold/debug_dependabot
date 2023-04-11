@@ -6,85 +6,14 @@ environment:
   sdk: ^2.19.5
 
 dependencies:
-  ab_testing_core: ^0.9.1
-  args: ^2.3.0
-  async: ^2.8.2
-  cbl: 2.1.8
-  cbl_flutter: 2.0.6
-  cbl_flutter_ee: 2.1.6
-  cbl_sentry: 1.0.6
-  collection: ^1.16.0
-  connectivity_plus: ^2.3.6+1
-  crypto: ^3.0.1
-  csv: ^5.0.1
-  fading_edge_scrollview: ^3.0.0
-  firebase_analytics: 10.0.6
-  flutter:
-    sdk: flutter
-  flutter_countdown_timer: ^4.1.0
-  flutter_lottie:
-    git:
-      url: https://github.com/lotum/flutter_lottie.git
-      ref: c497ea023df4448b7cf67f42bb424ca440baf278
-  flutter_mobx: ^2.0.4
-  flutter_test:
-    sdk: flutter
-  html: ^0.15.0
-  http: ^0.13.4
-  intl: ^0.17.0
-  isolate_handler: ^1.0.1
-  js: ^0.6.4
-  meta: ^1.7.0
-  mobx: ^2.0.6+1
-  path: ^1.8.2
-  path_provider: ^2.0.9
-  provider: ^6.0.2
-  sentry: ^6.8.0
-  sentry_flutter: ^6.8.0
+  path: 1.8.0
   soundpool:
     git:
       url: https://github.com/lotum/soundpool.git
       ref: 9fd95cde1dd5782bf7c7cbadcb16eb007e684026
       path: soundpool
-  sqflite: ^2.0.3+1
-  tar: ^0.5.6
-  timezone: ^0.9.0
-  universal_html: ^2.0.8
-  url_launcher: ^6.1.2
-  uuid: ^3.0.6
-  yaml: ^3.1.0
-
-dev_dependencies:
-  analyzer: ^4.3.1
-  build_runner: ^2.1.8
-  cbl_dart: 2.1.9
-  flutter_gen_runner:
-    git:
-      url: https://github.com/lotum/flutter_gen.git
-      ref: dd2da7a778b0a2873ea0e3e27376a77e6f4849cc
-      path: packages/runner
-  flutter_lints: ^2.0.1
-  lotum_analysis:
-    git:
-      url: https://github.com/lotum/lotum_analysis.git
-      ref: lotum_analysis-v1.0.2
-  mobx_codegen: ^2.0.7
 
 dependency_overrides:
-  ab_testing_core:
-    git:
-      url: https://github.com/programmierbar/ab_testing.git
-      path: core
-      ref: df52c6f0e9095fccd7926c65cb8808cdfec31af3
-  flutter_gen_core:
-    git:
-      url: https://github.com/lotum/flutter_gen.git
-      ref: dd2da7a778b0a2873ea0e3e27376a77e6f4849cc
-      path: packages/core
-  flutter_isolate:
-    git:
-      url: https://github.com/srmanc/flutter_isolate
-      ref: 156fa6518d280466b8b042b8316768319dc2ccc5
   soundpool_platform_interface:
     git:
       url: https://github.com/lotum/soundpool.git
@@ -95,4 +24,3 @@ dependency_overrides:
       url: https://github.com/lotum/soundpool.git
       ref: 9fd95cde1dd5782bf7c7cbadcb16eb007e684026
       path: soundpool_web
-
