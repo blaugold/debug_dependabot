@@ -16,3 +16,4 @@ dependencies:
   local:
     path: ./local
   collection: 1.16.0
+  ffi: 2.0.0
